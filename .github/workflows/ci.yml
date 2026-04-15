@@ -27,7 +27,7 @@ jobs:
           cache-dependency-path: client/package-lock.json
 
       - name: Install frontend dependencies
-        run: npm ci
+        run: npm install
 
       - name: Run frontend tests
         run: npm test -- --watchAll=false
@@ -55,7 +55,7 @@ jobs:
           cache-dependency-path: server/package-lock.json
 
       - name: Install backend dependencies
-        run: npm ci
+        run: npm install
 
       - name: Run backend tests
         run: npm test

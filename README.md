@@ -17,3 +17,6 @@ docker-compose up --build
 ### CI/CD Pipeline
 - **CI**: Automated tests and builds run on every Pull Request to main.
 - **CD**: Production images are pushed to Docker Hub upon merges to main.
+
+---
+*Last updated: 2026-04-15 22:07:26*
